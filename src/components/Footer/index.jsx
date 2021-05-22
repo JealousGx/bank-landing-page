@@ -66,11 +66,11 @@ const Footer = () => {
                         <SocialLogo to='/' onClick={toggleHome}>dougie</SocialLogo>
                         <WebsiteRights to='/'>dougie © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
+                            <SocialIconLink href='https://www.instagram.com/khilji_mateen/' target="_blank" aria-label="Instagram"><FaInstagram /></SocialIconLink>
                             <SocialIconLink href='/' target="_blank" aria-label="Facebook"><FaFacebook /></SocialIconLink>
-                            <SocialIconLink href='/' target="_blank" aria-label="Instagram"><FaInstagram /></SocialIconLink>
-                            <SocialIconLink href='/' target="_blank" aria-label="Twitter"><FaTwitter /></SocialIconLink>
+                            <SocialIconLink href='https://twitter.com/mateen_khilji' target="_blank" aria-label="Twitter"><FaTwitter /></SocialIconLink>
                             <SocialIconLink href='/' target="_blank" aria-label="Youtube"><FaYoutube /></SocialIconLink>
-                            <SocialIconLink href='/' target="_blank" aria-label="LinkedIn"><FaLinkedin /></SocialIconLink>
+                            <SocialIconLink href='https://www.linkedin.com/in/abdul-mateen-khilji-8a743217b/' target="_blank" aria-label="LinkedIn"><FaLinkedin /></SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>
                 </SocialMedia>
